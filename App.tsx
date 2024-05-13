@@ -1,12 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {View} from 'react-native';
-import SectionListComponent from './src/components/section-list';
+import ClassComponentNative from './src/components/class-component/class-component';
 
 function App(): React.JSX.Element {
   return (
     <View>
-      <SectionListComponent />
+      <ClassComponentNative />
     </View>
   );
 }
