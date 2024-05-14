@@ -1,14 +1,9 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {Button, Modal, StyleSheet, Text, View} from 'react-native';
+import ModalCom from './src/components/modal/modal-com';
 function App(): React.JSX.Element {
-  return (
-    <View>
-      
-    </View>
-  );
+  return <View></View>;
 }
-
-
 
 export default App;
