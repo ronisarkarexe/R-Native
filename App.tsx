@@ -1,12 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {View} from 'react-native';
-import ClassComponentNative from './src/components/class-component/class-component';
+import ToggleComponent from './src/components/toggle/toggle';
 
 function App(): React.JSX.Element {
   return (
     <View>
-      <ClassComponentNative />
+      <ToggleComponent />
     </View>
   );
 }
