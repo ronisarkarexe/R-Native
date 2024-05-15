@@ -9,7 +9,9 @@ const LoginScreen = props => {
       <Text>Login Screen</Text>
       <Button
         title="Go to Home Page"
-        onPress={() => props.navigation.navigate('Home')}
+        onPress={() =>
+          props.navigation.navigate('Home', {name: 'abc', age: '12'})
+        }
       />
     </View>
   );
